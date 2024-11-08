@@ -1,6 +1,6 @@
 # WooCommerce Product Exporter (JSON)
 
-A WordPress snippet to export all WooCommerce products in JSON format. The script enables administrators to download a `products.json` file containing product details such as ID, name, price, SKU, description, stock, categories, tags, and image URLs.
+A WordPress snippet to export all WooCommerce products in JSON format. The script enables admins to download a `products.json` file containing product details such as ID, name, price, SKU, description, stock, categories, tags, and image URLs.
 
 ## Features
 
@@ -19,13 +19,12 @@ A WordPress snippet to export all WooCommerce products in JSON format. The scrip
 
 ## Installation
 
-1. Add the provided PHP snippet to your WordPress theme's `functions.php` file or create a custom plugin.
-2. Ensure you have WooCommerce installed and active on your WordPress site.
+1. Add the PHP snippet to your WordPress theme's `functions.php` file (also can create your own plugin).
 
 ## Usage
 
 To export products, visit your website with the following URL while logged in as an administrator:
-https://yourwebsite.com/?export_products=json
+https://yourcoolwebsite.com/?export_products=json
 
 This will trigger a download of a file named `products.json`.
 
